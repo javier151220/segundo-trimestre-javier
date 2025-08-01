@@ -1,4 +1,3 @@
-
 # vocal=input("ingresa una vocal en minusculla : ")
 # if vocal== "a":
 #     print("A")
@@ -180,4 +179,137 @@
 # else:
 #     print(f"intruso")
 
-#javier
+"-------------------------EJERCICIO 15-----------------"
+
+# colores=["Amerillo","Azul","Verde"]
+# print(colores)
+# if colores[1]=="Azul":
+#     colores[1]="rojo"
+#     print(f"la lista de colores queda asi {colores}")
+# else:
+#     print("No es azul ")
+
+"--------------------------------------Ejercicios con Tuplas (con condicionales)------------------"
+
+"-------------------------EJERCICIO 16-----------------"
+# num=(5, 8, 12, 20)
+# if num[0]<num[-1]:
+#     print("orden acendente")
+# else:
+#     print("orden decendente")
+
+
+"-----------------------Ejercicio 17-------------------------------------------------"
+# edades=(25, 32, 28)
+# if edades[1]>30:
+#     print(f"edad mayor a 30 ")
+# else:
+#     print(f"edad menor igual a 30 ")
+
+"-----------------------Ejercicio 18-------------------------------------------------"
+# num=(1,2,3)
+# print(num)
+# mi_lista=list(num)
+# print(mi_lista)
+# if mi_lista[1]==2:
+#     mi_lista[1]=10
+#     tupla=tuple(mi_lista)
+#     print(f"la lista qieda {mi_lista}  y la tupla en {tupla}")
+# else:
+#     print("no se cambia ningun valor")
+
+"-----------------------Ejercicio 19-------------------------------------------------"
+
+# num=(4,9)
+# if num[1]> 5:
+#     print(f"cordenada alta {num[1]}")
+# else:
+#     print(f"cordeenada baja {num[1]}")
+
+"-----------------------Ejercicio 20-------------------------------------------------"
+
+# num1=(3,4)
+# num2=(3,5)
+
+# if num1==num2:
+#     print(f"tuplas iguales {num1} {num2} ")
+# else:
+#      print(f"tuplas  no son iguales {num1} {num2} ")
+
+
+
+"----------------Ejercicios con Diccionarios (con condicionales)----------------"
+
+
+"-----------------------Ejercicio 21-------------------------------------------------"
+
+# datos={"nombre":"juan","edad":17}
+# if datos["edad"]>=18:
+#     print("Mayor de edad ")
+# else:
+#     print("Menor de edad")
+
+
+"-----------------------Ejercicio 22-------------------------------------------------"
+
+
+# datos1={"nombre": "Lucía", "edad": 20}
+# print(datos1)
+# if datos1["edad"]>18:
+#     datos1["edad"]=21
+#     print("mayor de edad")
+#     print(datos1)
+# else:
+#     print("es menor de edad")
+
+
+"-----------------------Ejercicio 23-------------------------------------------------"
+
+# ciudad = {"nombre": "Carlos"}
+# print(ciudad)
+# if "ciudad" not in ciudad:
+#     ciudad["ciudad"] = "Bogotá"
+
+# print(ciudad)
+
+"-----------------------Ejercicio 24-------------------------------------------------"
+
+
+# producto = {"producto": "pan", "precio": 1200}
+# print(producto)
+# if "precio" in producto:
+#     print(producto["precio"])
+# else:
+#     print("No hay precio")
+
+
+
+
+"-----------------------Ejercicio 25-------------------------------------------------"
+# ingredientes={"pan": 1200, "leche": 2000}
+# print(ingredientes)
+
+# if "pan" in ingredientes:
+#      print(f"el precio es {ingredientes['pan']}")
+# else:
+#     print("no disponible")
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
